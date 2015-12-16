@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <title>
+      Learn You Some Elixir
+      <%= ' - ' + current_page.data.title if current_page.data.title %>
+    </title>
+
+    <%= stylesheet_link_tag :main %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+
+  <%# <%= javascript_include_tag :all %1> %>
+  </body>
+</html>

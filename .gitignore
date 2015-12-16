@@ -1,0 +1,10 @@
+*.ez
+.DS_Store
+/.bundle
+/.cache
+/.sass-cache
+/_build
+/_build_site
+/cover
+/deps
+erl_crash.dump
